@@ -10,13 +10,13 @@ headers = [
     ('Content-Type', 'application/x-www-form-urlencoded; charset=utf-8'),
     ('Connection', 'keep-alive'),
     ('Accept', '*/*'),
-    ('User-Agent', 'Jipgw'),
+    ('User-Agent', 'IPGWiOS1.2_Jet_py'),
     ('Accept-Language', 'zh-Hans-CN;q=1.0'),
     ('Accept-Encoding', 'gzip;q=1.0, compress;q=0.5')
 ]
 
 openMsg = {
-    'app': 'Jipgw1.0',
+    'app': 'IPGWiOS1.2',
     'cmd': 'open',
     'ip': '',
     'iprange': 'fee',
@@ -26,7 +26,7 @@ openMsg = {
 }
 
 closeMsg = {
-    'app': 'Jipgw1.0',
+    'app': 'IPGWiOS1.2',
     'cmd': 'closeall',
     'lang': '',
     'password': '',
